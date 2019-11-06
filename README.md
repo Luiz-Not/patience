@@ -1,0 +1,2 @@
+# patience
+Patience, also known as Solitaire, is a single player card game. It is a very famous game especially because of a version for the Microsoft Windows operating system, which is considered one of the most popular computer games of all time and the most played video game worldwide. The Solitaire variant used by Windows is known specifically as "Klondike", referring to the Canadian region where a 19th century gold rush occurred.
