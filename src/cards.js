@@ -1,0 +1,315 @@
+const cards = [{
+	"index": 1,
+	"name": "A",
+	"suit": "diamond",
+	"color": "red",
+	"id": "A-diamond"
+}, {
+	"index": 2,
+	"name": "2",
+	"suit": "diamond",
+	"color": "red",
+	"id": "2-diamond"
+}, {
+	"index": 3,
+	"name": "3",
+	"suit": "diamond",
+	"color": "red",
+	"id": "3-diamond"
+}, {
+	"index": 4,
+	"name": "4",
+	"suit": "diamond",
+	"color": "red",
+	"id": "4-diamond"
+}, {
+	"index": 5,
+	"name": "5",
+	"suit": "diamond",
+	"color": "red",
+	"id": "5-diamond"
+}, {
+	"index": 6,
+	"name": "6",
+	"suit": "diamond",
+	"color": "red",
+	"id": "6-diamond"
+}, {
+	"index": 7,
+	"name": "7",
+	"suit": "diamond",
+	"color": "red",
+	"id": "7-diamond"
+}, {
+	"index": 8,
+	"name": "8",
+	"suit": "diamond",
+	"color": "red",
+	"id": "8-diamond"
+}, {
+	"index": 9,
+	"name": "9",
+	"suit": "diamond",
+	"color": "red",
+	"id": "9-diamond"
+}, {
+	"index": 10,
+	"name": "10",
+	"suit": "diamond",
+	"color": "red",
+	"id": "10-diamond"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "diamond",
+	"color": "red",
+	"id": "J-diamond"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "diamond",
+	"color": "red",
+	"id": "Q-diamond"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "diamond",
+	"color": "red",
+	"id": "K-diamond"
+}, {
+	"index": 1,
+	"name": "A",
+	"suit": "heart",
+	"color": "red",
+	"id": "A-heart"
+}, {
+	"index": 2,
+	"name": "2",
+	"suit": "heart",
+	"color": "red",
+	"id": "2-heart"
+}, {
+	"index": 3,
+	"name": "3",
+	"suit": "heart",
+	"color": "red",
+	"id": "3-heart"
+}, {
+	"index": 4,
+	"name": "4",
+	"suit": "heart",
+	"color": "red",
+	"id": "4-heart"
+}, {
+	"index": 5,
+	"name": "5",
+	"suit": "heart",
+	"color": "red",
+	"id": "5-heart"
+}, {
+	"index": 6,
+	"name": "6",
+	"suit": "heart",
+	"color": "red",
+	"id": "6-heart"
+}, {
+	"index": 7,
+	"name": "7",
+	"suit": "heart",
+	"color": "red",
+	"id": "7-heart"
+}, {
+	"index": 8,
+	"name": "8",
+	"suit": "heart",
+	"color": "red",
+	"id": "8-heart"
+}, {
+	"index": 9,
+	"name": "9",
+	"suit": "heart",
+	"color": "red",
+	"id": "9-heart"
+}, {
+	"index": 10,
+	"name": "10",
+	"suit": "heart",
+	"color": "red",
+	"id": "10-heart"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "heart",
+	"color": "red",
+	"id": "J-heart"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "heart",
+	"color": "red",
+	"id": "Q-heart"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "heart",
+	"color": "red",
+	"id": "K-heart"
+}, {
+	"index": 1,
+	"name": "A",
+	"suit": "club",
+	"color": "black",
+	"id": "A-club"
+}, {
+	"index": 2,
+	"name": "2",
+	"suit": "club",
+	"color": "black",
+	"id": "2-club"
+}, {
+	"index": 3,
+	"name": "3",
+	"suit": "club",
+	"color": "black",
+	"id": "3-club"
+}, {
+	"index": 4,
+	"name": "4",
+	"suit": "club",
+	"color": "black",
+	"id": "4-club"
+}, {
+	"index": 5,
+	"name": "5",
+	"suit": "club",
+	"color": "black",
+	"id": "5-club"
+}, {
+	"index": 6,
+	"name": "6",
+	"suit": "club",
+	"color": "black",
+	"id": "6-club"
+}, {
+	"index": 7,
+	"name": "7",
+	"suit": "club",
+	"color": "black",
+	"id": "7-club"
+}, {
+	"index": 8,
+	"name": "8",
+	"suit": "club",
+	"color": "black",
+	"id": "8-club"
+}, {
+	"index": 9,
+	"name": "9",
+	"suit": "club",
+	"color": "black",
+	"id": "9-club"
+}, {
+	"index": 10,
+	"name": "10",
+	"suit": "club",
+	"color": "black",
+	"id": "10-club"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "club",
+	"color": "black",
+	"id": "J-club"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "club",
+	"color": "black",
+	"id": "Q-club"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "club",
+	"color": "black",
+	"id": "K-club"
+}, {
+	"index": 1,
+	"name": "A",
+	"suit": "spade",
+	"color": "black",
+	"id": "A-spade"
+}, {
+	"index": 2,
+	"name": "2",
+	"suit": "spade",
+	"color": "black",
+	"id": "2-spade"
+}, {
+	"index": 3,
+	"name": "3",
+	"suit": "spade",
+	"color": "black",
+	"id": "3-spade"
+}, {
+	"index": 4,
+	"name": "4",
+	"suit": "spade",
+	"color": "black",
+	"id": "4-spade"
+}, {
+	"index": 5,
+	"name": "5",
+	"suit": "spade",
+	"color": "black",
+	"id": "5-spade"
+}, {
+	"index": 6,
+	"name": "6",
+	"suit": "spade",
+	"color": "black",
+	"id": "6-spade"
+}, {
+	"index": 7,
+	"name": "7",
+	"suit": "spade",
+	"color": "black",
+	"id": "7-spade"
+}, {
+	"index": 8,
+	"name": "8",
+	"suit": "spade",
+	"color": "black",
+	"id": "8-spade"
+}, {
+	"index": 9,
+	"name": "9",
+	"suit": "spade",
+	"color": "black",
+	"id": "9-spade"
+}, {
+	"index": 10,
+	"name": "10",
+	"suit": "spade",
+	"color": "black",
+	"id": "10-spade"
+}, {
+	"index": 11,
+	"name": "J",
+	"suit": "spade",
+	"color": "black",
+	"id": "J-spade"
+}, {
+	"index": 12,
+	"name": "Q",
+	"suit": "spade",
+	"color": "black",
+	"id": "Q-spade"
+}, {
+	"index": 13,
+	"name": "K",
+	"suit": "spade",
+	"color": "black",
+	"id": "K-spade"
+}]
+
+export default cards

@@ -1,0 +1,13 @@
+.card-slot {
+  width: 140px;
+  min-height: 198px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  margin: 16px;
+  position: relative;
+}
+
+.card-slot .card {
+  margin: 0px;
+}

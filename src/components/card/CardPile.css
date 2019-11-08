@@ -1,0 +1,7 @@
+.card-pile {
+  display: flex;
+}
+
+.card-pile .card-back {
+  margin-right: 32px !important;
+}

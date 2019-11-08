@@ -1,0 +1,183 @@
+html {
+  height: 100%;
+  background-color: #52bf90;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-20 {
+  top: 20px;
+}
+
+.top-30 {
+  top: 30px;
+}
+
+.top-40 {
+  top: 40px;
+}
+
+.top-50 {
+  top: 50px;
+}
+
+.top-60 {
+  top: 60px;
+}
+
+.top-70 {
+  top: 70px;
+}
+
+.top-80 {
+  top: 80px;
+}
+
+.top-90 {
+  top: 90px;
+}
+
+.top-100 {
+  top: 100px;
+}
+
+.top-110 {
+  top: 110px;
+}
+
+.top-120 {
+  top: 120px;
+}
+
+.top-130 {
+  top: 130px;
+}
+
+.top-140 {
+  top: 140px;
+}
+
+.top-150 {
+  top: 150px;
+}
+
+.top-160 {
+  top: 160px;
+}
+
+.top-170 {
+  top: 170px;
+}
+
+.top-180 {
+  top: 180px;
+}
+
+.top-190 {
+  top: 190px;
+}
+
+.top-200 {
+  top: 200px;
+}
+
+.top-210 {
+  top: 210px;
+}
+
+.top-220 {
+  top: 220px;
+}
+
+.top-230 {
+  top: 230px;
+}
+
+.top-240 {
+  top: 240px;
+}
+
+.top-250 {
+  top: 250px;
+}
+
+.top-260 {
+  top: 260px;
+}
+
+.top-270 {
+  top: 270px;
+}
+
+.top-280 {
+  top: 280px;
+}
+
+.top-290 {
+  top: 290px;
+}
+
+.top-300 {
+  top: 300px;
+}
+
+.top-310 {
+  top: 310px;
+}
+
+.top-320 {
+  top: 320px;
+}
+
+.top-330 {
+  top: 330px;
+}
+
+.top-340 {
+  top: 340px;
+}
+
+.top-350 {
+  top: 350px;
+}
+
+.top-360 {
+  top: 360px;
+}
+
+.top-390 {
+  top: 390px;
+}
+
+.top-420 {
+  top: 420px;
+}
+
+.top-450 {
+  top: 450px;
+}
+
+.top-480 {
+  top: 480px;
+}
+  
+.jump {
+  animation: jump 4s normal ease-in-out;
+}
+
+@keyframes jump {
+  0% { transform: translate(0px, 0px) }
+  50% { transform: translate(286px, 370px) }
+  100% { transform: translate(572px, 740px)}
+}
